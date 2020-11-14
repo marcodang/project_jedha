@@ -1,0 +1,106 @@
+Last login: Wed Oct 21 16:25:20 on ttys000
+
+The default interactive shell is now zsh.
+To update your account to use zsh, please run `chsh -s /bin/zsh`.
+For more details, please visit https://support.apple.com/kb/HT208050.
+(base) MacBook-Air-di-Marco:~ marcoda$ ls
+Applications		Hello.py		Public
+Couleur.py		Library			Test.py
+Desktop			Movies			iCloud Drive (Archivio)
+Documents		Music			opt
+Downloads		Pictures
+(base) MacBook-Air-di-Marco:~ marcoda$ pwd
+/Users/marcoda
+(base) MacBook-Air-di-Marco:~ marcoda$ ls
+Applications		Hello.py		Public
+Couleur.py		Library			Test.py
+Desktop			Movies			iCloud Drive (Archivio)
+Documents		Music			opt
+Downloads		Pictures
+(base) MacBook-Air-di-Marco:~ marcoda$ 
+(base) MacBook-Air-di-Marco:~ marcoda$ cd
+(base) MacBook-Air-di-Marco:~ marcoda$ cd Documents
+(base) MacBook-Air-di-Marco:Documents marcoda$ python3
+Python 3.8.3 (default, Jul  2 2020, 11:26:31) 
+[Clang 10.0.0 ] :: Anaconda, Inc. on darwin
+Type "help", "copyright", "credits" or "license" for more information.
+>>> 
+>>> 
+>>> 
+>>> 
+>>> print"hello")
+  File "<stdin>", line 1
+    print"hello")
+         ^
+SyntaxError: invalid syntax
+>>> print("hello")
+hello
+>>> save()
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+NameError: name 'save' is not defined
+>>> ls
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+NameError: name 'ls' is not defined
+>>> exit()
+(base) MacBook-Air-di-Marco:Documents marcoda$ ls
+01_CV_Consultant FS_Marco_DANGELO.pdf
+2020-07-10-09-37-22-résultats.pdf
+BIO20200709_C0070920098_MESANALYSES.pdf
+Backup
+CV_M.DANGELO.pptx
+CV_M.DANGELO_29.06.pdf
+CV_OECD.pdf
+Declaration_automatique_des_revenus_2019.pdf
+Doc
+Documents D'ANGELO MARCO [33 ans.pdf
+Eval.docx
+File_Esempi
+GS_Covid19_integrale_ITA-1.pdf
+IBM Data Science
+Libri&Riviste
+Linee Guida.docx
+MDA.pptx
+Naturalisation
+Numéro Cesu.docx
+PIan_Giappone.xlsx
+Statstica.xlsx
+Tickets
+iCloud Drive (Archivio)
+lse_data_analysis_for_management_online_certificate_course_prospectus.pdf
+ordonnance-de-medicaments.pdf
+spotify.docx
+wetransfer-2e5fc1
+(base) MacBook-Air-di-Marco:Documents marcoda$ cd Bureau
+-bash: cd: Bureau: No such file or directory
+(base) MacBook-Air-di-Marco:Documents marcoda$ ls
+01_CV_Consultant FS_Marco_DANGELO.pdf
+2020-07-10-09-37-22-résultats.pdf
+BIO20200709_C0070920098_MESANALYSES.pdf
+Backup
+CV_M.DANGELO.pptx
+CV_M.DANGELO_29.06.pdf
+CV_OECD.pdf
+Declaration_automatique_des_revenus_2019.pdf
+Doc
+Documents D'ANGELO MARCO [33 ans.pdf
+Eval.docx
+File_Esempi
+GS_Covid19_integrale_ITA-1.pdf
+IBM Data Science
+Libri&Riviste
+Linee Guida.docx
+MDA.pptx
+Naturalisation
+Numéro Cesu.docx
+PIan_Giappone.xlsx
+Statstica.xlsx
+Tickets
+iCloud Drive (Archivio)
+lse_data_analysis_for_management_online_certificate_course_prospectus.pdf
+ordonnance-de-medicaments.pdf
+spotify.docx
+wetransfer-2e5fc1
+(base) MacBook-Air-di-Marco:Documents marcoda$ 
+(base) MacBook-Air-di-Marco:Documents marcoda$ 
